@@ -1,2 +1,13 @@
 # Timeline
-This is small html + CSS + bootstrap project which contains timeline of my life.
+This is small project which contains timeline of my life.
+
+## Languages
+* HTML
+* CSS
+
+## Libraries / Frameworks
+* Bootstrap
+
+## License
+This project is licensed under the MIT License.
+
