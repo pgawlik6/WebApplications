@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My timeline</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <style>
+            .circle {
+            padding: 13px 20px;
+            border-radius: 50%;
+            background-color: rgb(22, 228, 66);
+            color: #fff;
+            max-height: 50px;
+            z-index: 2;
+            }
+
+            .how-it-works.row .col-2 {
+            align-self: stretch;
+            }
+            .how-it-works.row .col-2::after {
+            content: "";
+            position: absolute;
+            border-left: 3px solid rgb(6, 172, 42);
+            z-index: 1;
+            }
+            .how-it-works.row .col-2.bottom::after {
+            height: 50%;
+            left: 50%;
+            top: 50%;
+            }
+            .how-it-works.row .col-2.full-left::after {
+            height: 100%;
+            left: calc(50%);
+            }
+            .how-it-works.row .col-2.full-right::after {
+            height: 100%;
+            left: calc(50% - 3px);
+            }
+            .how-it-works.row .col-2.top::after {
+            height: 50%;
+            left: 48.5%;
+            top: 0;
+            }
+
+
+            .timeline div {
+            padding: 0;
+            height: 40px;
+            }
+            .timeline hr {
+            border-top: 3.5px solid rgb(6, 172, 42);
+            margin: 0;
+            top: 17px;
+            position: relative;
+            }
+            .timeline .col-2 {
+            display: flex;
+            overflow: hidden;
+            }
+            .timeline .corner {
+            border: 3px solid rgb(6, 172, 42);
+            width: 100%;
+            position: relative;
+            border-radius: 15px;
+            }
+            .timeline .top-right {
+            left: 50%;
+            top: -49%;
+            }
+            .timeline .left-bottom {
+            left: -50%;
+            top: calc(50% - 3px);
+            }
+            .timeline .top-left {
+            left: -50%;
+            top: -49%;
+            }
+            .timeline .right-bottom {
+            left: 50%;
+            top: calc(50% - 3px);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1" style="background: linear-gradient(0.75turn, #D7FFE2, #00d037);"></div>
+                    <div class="col-md-10" style="padding: 0;">
+                        <div class="h1 pb-3 border-bottom text-center" style="background: linear-gradient(0.25turn, #D7FFE2, #D7FFE2);">Timeline</br>Of My Life</div>
+                        <!--first section-->
+                        <div class="row align-items-center how-it-works d-flex">
+                            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                            <div class="circle font-weight-bold">1</div>
+                            </div>
+                            <div class="col-4">
+                            <h5><u>27.06.1996</u> - Birthday</h5>
+                            <p>
+                                I was born in the city of Gorlice. I live in Moszczenica (small village next to Gorlice) from an early age.
+                            </p>
+                            </div>
+                        </div>
+                        <!--path between 1-2-->
+                        <div class="row timeline">
+                            <div class="col-2">
+                            <div class="corner top-right"></div>
+                            </div>
+                            <div class="col-8">
+                            <hr/>
+                            </div>
+                            <div class="col-2">
+                            <div class="corner left-bottom"></div>
+                            </div>
+                        </div>
+                        <!--second section-->
+                        <div class="row align-items-center justify-content-end how-it-works d-flex">
+                            <div class="col-4">
+                            <h5><u>01.09.2003</u> - Starting Education</h5>
+                            <p>
+                                I went to Elementary School (2003-2009) and Junior High School (2009-2012) in my village - Moszczenica. 
+                                Then I started to be interested in Sport and Computer Science.  
+                            </p>
+                            </div>
+                            <div class="col-2 text-center full-right d-inline-flex justify-content-center align-items-center">
+                            <div class="circle font-weight-bold">2</div>
+                            </div>
+                        </div>
+                        <!--path between 2-3-->
+                        <div class="row timeline">
+                            <div class="col-2">
+                            <div class="corner right-bottom"></div>
+                            </div>
+                            <div class="col-8">
+                            <hr/>
+                            </div>
+                            <div class="col-2">
+                            <div class="corner top-left"></div>
+                            </div>
+                        </div>
+                        <!--third section-->
+                        <div class="row align-items-center how-it-works d-flex">
+                            <div class="col-2 text-center full-left d-inline-flex justify-content-center align-items-center">
+                            <div class="circle font-weight-bold">3</div>
+                            </div>
+                            <div class="col-4">
+                                <h5><u>03.09.2012</u> - Starting High School</h5>
+                                <p>
+                                    I went to "Zespół Szkół Nr 1 im. Ignacego Łukasiewicz w Gorlicach" and I was learning in mathematical-IT-physical class.
+                                </p>
+                            </div>
+                        </div>
+                        <!--path between 3-4-->
+                        <div class="row timeline">
+                            <div class="col-2">
+                            <div class="corner top-right"></div>
+                            </div>
+                            <div class="col-8">
+                            <hr/>
+                            </div>
+                            <div class="col-2">
+                            <div class="corner left-bottom"></div>
+                            </div>
+                        </div>
+                        <!--fourth section-->
+                        <div class="row align-items-center justify-content-end how-it-works d-flex">
+                            <div class="col-4">
+                            <h5><u>25.09.2014</u> - Obtaining a driving license</h5>
+                            <p>
+                                After completing the driving course, I passed the theoretical and practical driving exam (on the first try). 
+                            </p>
+                            </div>
+                            <div class="col-2 text-center full-right d-inline-flex justify-content-center align-items-center">
+                            <div class="circle font-weight-bold">4</div>
+                            </div>
+                        </div>
+                        <!--path between 4-5-->
+                        <div class="row timeline">
+                            <div class="col-2">
+                            <div class="corner right-bottom"></div>
+                            </div>
+                            <div class="col-8">
+                            <hr/>
+                            </div>
+                            <div class="col-2">
+                            <div class="corner top-left"></div>
+                            </div>
+                        </div>
+                        <!--fifth section-->
+                        <div class="row align-items-center how-it-works d-flex">
+                            <div class="col-2 text-center full-left d-inline-flex justify-content-center align-items-center">
+                            <div class="circle font-weight-bold">5</div>
+                            </div>
+                            <div class="col-4">
+                                <h5><u>01.07.2015</u> - Passed High School Final Exams</h5>
+                                <p>
+                                    I passed all of my High School Final Exams. I had 7 of theem to pass.
+                                </p>
+                            </div>
+                        </div>
+                        <!--path between 5-6-->
+                        <div class="row timeline">
+                            <div class="col-2">
+                            <div class="corner top-right"></div>
+                            </div>
+                            <div class="col-8">
+                            <hr/>
+                            </div>
+                            <div class="col-2">
+                            <div class="corner left-bottom"></div>
+                            </div>
+                        </div>
+                        <!--sixth section-->  
+                        <div class="row align-items-center justify-content-end how-it-works d-flex">
+                            <div class="col-4">
+                            <h5><u>01.10.2016</u> - Starting Higher Education</h5>
+                            <p>
+                                Then I got to the Pedagogical University in Cracow for Computer Science. 
+                            </p>
+                            </div>
+                            <div class="col-2 text-center full-right d-inline-flex justify-content-center align-items-center">
+                            <div class="circle font-weight-bold">6</div>
+                            </div>
+                        </div>
+                        <!--path between 6-7-->
+                        <div class="row timeline">
+                            <div class="col-2">
+                            <div class="corner right-bottom"></div>
+                            </div>
+                            <div class="col-8">
+                            <hr/>
+                            </div>
+                            <div class="col-2">
+                            <div class="corner top-left"></div>
+                            </div>
+                        </div>
+                        <!--seventh section-->
+                        <div class="row align-items-center how-it-works d-flex">
+                            <div class="col-2 text-center full-left d-inline-flex justify-content-center align-items-center">
+                            <div class="circle font-weight-bold">7</div>
+                            </div>
+                            <div class="col-4">
+                                <h5><u>18.09.2019</u> - End of first degree Study</h5>
+                                <p>
+                                    That day I defended my Bachelor thesis. The theme of my Bachelor thesis was "Computer assisted matrix calculus"
+                                </p>
+                            </div>
+                        </div>
+                        <!--path between 7-8-->
+                        <div class="row timeline">
+                            <div class="col-2">
+                            <div class="corner top-right"></div>
+                            </div>
+                            <div class="col-8">
+                            <hr/>
+                            </div>
+                            <div class="col-2">
+                            <div class="corner left-bottom"></div>
+                            </div>
+                        </div>
+                        <!--eighth section-->  
+                        <div class="row align-items-center justify-content-end how-it-works d-flex">
+                            <div class="col-4">
+                            <h5><u>01.10.2019</u> - Starting second degree of Study</h5>
+                            <p>
+                                I also started my second degree at UP in Cracow and I am still studying here.    
+                            </p>
+                            </div>
+                            <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                            <div class="circle font-weight-bold">8</div>
+                            </div>
+                        </div>
+                        
+                    </div>  
+                <div class="col-md-1" style="background: linear-gradient(0.25turn, #D7FFE2, #00d037);"></div>    
+            </div>
+        </div>
+    </body>
+</html>
