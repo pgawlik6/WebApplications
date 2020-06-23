@@ -6,3 +6,6 @@ This is a web application of a made-up company which I called "Natural IT".
 
 ## 2. Timeline
 This is small html + CSS + bootstrap project which contains timeline of my life.
+
+## 3. Project_ZTW1
+This is a web application made as part of the ZTW1 (Advaced Web Technologies 1) classes.
