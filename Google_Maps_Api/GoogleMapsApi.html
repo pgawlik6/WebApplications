@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Maps API</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <!--Google APi-->
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXS-_KlCIKIcOesxwazO12k2uyhVYmWLs&callback=initMap&libraries=&v=weekly"
+          async
+        ></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+        <script src="geocode.js"></script>
+    </head>
+
+    <body>
+        <br />
+        
+        <div id="map"></div>
+        <br /> 
+        <div id="floating-panel">
+            <span>Podaj adres: </span>
+            <input id="address" type="textbox" value="" />
+            <input id="submit" type="submit" value="Wyszukaj" />
+        </div>
+        
+        <h2 style="text-align: center">Wybierz operację:</h2>
+        <div class="btn-group" >
+            <button class="buttons" id="but_gen" onclick="GenerateLink()"> Generacja Linku</button>
+            <button class="buttons" id="but_gen_cl" onclick="GenerateXML()"> Generacja XML'a</button>
+            <button class="buttons" id="but_gen2" onclick="GenerateTXT()"> Generacja pliku TXT</button>
+            <button class="buttons" id="but_gen_table" onclick="GenerateTable()"> Wyświetl dane w tabeli</button>
+            <button class="buttons" id="but_del" onclick="DeleteMarkers()"> Wyczyść mapę</button>
+        </div>
+        <br />
+        <hr/>
+        <div id="XML_Buttons" style="float: left; width:100%; padding-bottom: 10px;">    
+            <h2>Importuj dane z pliku XML:</h2>
+            <input type='file' id="file" name="file" accept='text/xml' onchange='openFile(event)'>
+            <button id="fileInput" >Prześlij</button>
+        </div>
+        <div id="TXT_Buttons" style="padding-bottom: 10px; float: left; width: 100%;border-bottom: 2px solid rgb(177, 177, 177);border-top: 2px solid rgb(177, 177, 177);">    
+            <h2 >Importuj dane z pliku TXT:</h2>
+            <input type='file' id="file_TXT" name="file-TXT" accept='text/plain' onchange='openFile(event)'>
+            <button id="fileInput2" >Prześlij</button>
+        </div>
+        <div>
+            <br/>
+            <i><span style="margin-left:3%; font-size: 18pt;" id = "gen_txt"></span></i><a style="font-size: 18pt;" id="gen_link" type="link" href="" target="_blank"></a> <br /><br />
+            <i><span style="margin-left:3%; font-size: 18pt;" id = "gen_XML_txt"></span></i><a style="font-size: 18pt;" type="link" id="gen_XML" href="" download=""></a><br />
+        </div>
+        <br/>
+        <div id="xml" style="margin-bottom:1.5%">    
+        </div>
+        <button id="top" style = "padding:10px; float:right; margin-right:2%;">Do góry</button>
+        <br />
+    </body>
+
+</html>
