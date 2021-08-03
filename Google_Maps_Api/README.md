@@ -29,7 +29,7 @@ This is WebApplication using Google Maps API. This application is searching indi
     <img width="100%" height="100%" src="https://imgur.com/WSQIhKS.png" />
   </kbd>
 </p>
-<p align="center"><strong>4. Presentation of the application in smaller width of window.</strong></p>
+<p align="center"><strong>4. Presentation of the application in the smallest width of window.</strong></p>
 <p align="center">
   <kbd>
     <img width="100%" height="70%" src="https://imgur.com/EScI3tc.png" />
