@@ -5,10 +5,10 @@ This is WebApplication using Google Maps API. This application is searching indi
 * JavaScript, CSS3, HTML5
 
 ## Other technologies
-Google Maps Api, Media Queries, RWD
+* Google Maps Api, Media Queries, RWD
 
 ## License
-This project is licensed under the MIT License.
+* This project is licensed under the MIT License.
 
 ## Screenshots
 <p align="center"><strong>1. Presentation of the entire application.</strong></p>
