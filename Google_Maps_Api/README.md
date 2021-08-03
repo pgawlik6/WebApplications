@@ -32,6 +32,6 @@ This is WebApplication using Google Maps API. This application is searching indi
 <p align="center"><strong>4. Presentation of the application in smaller width of window.</strong></p>
 <p align="center">
   <kbd>
-    <img width="70%" height="70%" src="https://imgur.com/EScI3tc.png" />
+    <img width="100%" height="70%" src="https://imgur.com/EScI3tc.png" />
   </kbd>
 </p>
