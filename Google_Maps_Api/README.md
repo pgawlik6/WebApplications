@@ -8,7 +8,7 @@ This is WebApplication using Google Maps API. This application is searching indi
 Google Maps Api, Media Queries, RWD
 
 ## License
-This project is licensed under the GNU License.
+This project is licensed under the MIT License.
 
 ## Screenshots
 <p align="center"><strong>1. Presentation of the entire application.</strong></p>
