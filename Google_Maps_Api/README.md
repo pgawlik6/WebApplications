@@ -1,4 +1,4 @@
-# Matrix Calculator
+# Google Maps Api project
 This is project 
 
 ## Languages
@@ -8,34 +8,22 @@ This is project
 Google Maps Api
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the GNU License.
 
 ## Screenshots
 <p align="center"><strong>1. Start</strong></p>
 <p align="center">
-  <img width="70%" height="70%" src="https://imgur.com/jJg4T9J.png" />
+  <img width="70%" height="70%" src="https://imgur.com/8M6lEK6" />
 </p>
 <p align="center"><strong>2. Inverse Matrix Error</strong></p>
 <p align="center">
-  <img width="70%" height="70%" src="https://imgur.com/cKSyzGK.png" />
+  <img width="70%" height="70%" src="https://imgur.com/bDv7Z2w" />
 </p>
 <p align="center"><strong>3. Minor Counting</strong></p>
 <p align="center">
-  <img width="70%" height="70%" src="https://imgur.com/7EeJkSq.png" />
+  <img width="70%" height="70%" src="https://imgur.com/WSQIhKS" />
 </p>
 <p align="center"><strong>4. Input Error 1</strong></p>
 <p align="center">
-  <img width="70%" height="70%" src="https://imgur.com/BQpACmN.png" />
-</p>
-<p align="center"><strong>5. Input Error 2</strong></p>
-<p align="center">
-  <img width="70%" height="70%" src="https://imgur.com/pCi5L6x.png" />
-</p>
-<p align="center"><strong>6. Matrix Multiplication</strong></p>
-<p align="center">
-  <img width="70%" height="70%" src="https://imgur.com/Fqru5hl.png" />
-</p>
-<p align="center"><strong>7. Matrix Properties</strong></p>
-<p align="center">
-  <img width="70%" height="70%" src="https://imgur.com/3jdot61.png" />
+  <img width="70%" height="70%" src="https://imgur.com/EScI3tc" />
 </p>
