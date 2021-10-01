@@ -9,6 +9,3 @@ This is small project which contains timeline of my life.
 
 ## 3. Project_ZTW1
 This is a web application made as part of the ZTW1 (Advaced Web Technologies 1) classes.
-
-## 4. Google Maps API
-This is Web Application for searching indicated addresses and marking them on map.
